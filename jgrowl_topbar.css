@@ -28,7 +28,7 @@ div.jGrowl div.jGrowl-closer {
   float: right;
   width: auto;
   margin: 0;
-  padding: 4px 10px;
+  padding: 2px 10px 6px 10px;
   
   -moz-border-radius-topleft: 0;
   -moz-border-radius-topright: 0;
@@ -44,11 +44,21 @@ div.jGrowl div.jGrowl-closer {
   color: #fff;
 }
 
+#jGrowl .status a,
+#jGrowl .warning a,
+#jGrowl .error a {
+  color: #fff;
+}
+
 #jGrowl .warning {
   background: #f90;
   border: 0;
   color: #000;
   font-weight: bold;
+}
+
+#jGrowl .warning a {
+  color: #000;
 }
 
 #jGrowl .error {
