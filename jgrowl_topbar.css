@@ -1,0 +1,57 @@
+div.jGrowl {
+  padding: 0;
+}
+
+body > div.jGrowl.center {
+  left: 0;
+  width: 100%;
+}
+
+div.jGrowl div.jGrowl-notification, div.jGrowl-closer {
+  width: auto;
+  min-height: 0;
+  margin: 0;
+  padding: 4px 10px 4px 10px;
+  border: 0;
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  background: #000;
+  color: #fff;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  opacity: 0.9;
+	filter: alpha(opacity = 90);
+}
+
+div.jGrowl div.jGrowl-closer {
+  float: right;
+  width: auto;
+  margin: 0;
+  padding: 4px 10px;
+  
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+}
+
+#jGrowl .status,
+#jGrowl .warning,
+#jGrowl .error {
+  border: 0;
+  background: #111;
+  color: #fff;
+}
+
+#jGrowl .warning {
+  background: #f90;
+  border: 0;
+  color: #000;
+  font-weight: bold;
+}
+
+#jGrowl .error {
+  background: #900;
+  font-weight: bold;
+}

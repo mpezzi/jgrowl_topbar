@@ -1,0 +1,7 @@
+; $Id:
+name          = "jGrowl Top Bar"
+description   = "Provides an alternative theme for jGrowl."
+package       = "User interface"
+core          = "6.x"
+
+version       = "6.x-1.0"
