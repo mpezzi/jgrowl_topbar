@@ -24,6 +24,21 @@ div.jGrowl div.jGrowl-notification, div.jGrowl-closer {
 	filter: alpha(opacity = 90);
 }
 
+div.jGrowl div.jGrowl-notification div.close {
+  float: left;
+  width: 20px;
+}
+
+div.jGrowl .item-list ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+div.jGrowl .item-list ul li.leaf {
+  background-image: none;
+}
+
 div.jGrowl div.jGrowl-closer {
   float: right;
   width: auto;
