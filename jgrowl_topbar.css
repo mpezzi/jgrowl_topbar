@@ -35,8 +35,10 @@ div.jGrowl .item-list ul {
   list-style: none;
 }
 
+div.jGrowl .item-list ul li, 
 div.jGrowl .item-list ul li.leaf {
-  background-image: none;
+  padding: 0;
+  background-image: none ! important;
 }
 
 div.jGrowl div.jGrowl-closer {
@@ -63,6 +65,7 @@ div.jGrowl div.jGrowl-closer {
 #jGrowl .warning a,
 #jGrowl .error a {
   color: #fff;
+  text-decoration: underline;
 }
 
 #jGrowl .warning {
